@@ -58,11 +58,10 @@
 		5475D6BE1F9ED24100AFA523 /* TextTwist */ = {
 			isa = PBXGroup;
 			children = (
+				C6394F3022F8C3A500F76E77 /* View */,
+				C6394F2F22F8C39100F76E77 /* Control */,
+				C6394F2E22F8C38200F76E77 /* Model */,
 				5475D6D51F9EDB1A00AFA523 /* Supporting Files */,
-				5475D6D11F9ED25300AFA523 /* Data.swift */,
-				5475D6D31F9ED6DC00AFA523 /* TextTwistModel.swift */,
-				5475D6C11F9ED24100AFA523 /* ViewController.swift */,
-				5475D6C31F9ED24100AFA523 /* Main.storyboard */,
 				5475D6CB1F9ED24100AFA523 /* Info.plist */,
 			);
 			path = TextTwist;
@@ -76,6 +75,31 @@
 				5475D6C81F9ED24100AFA523 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6394F2E22F8C38200F76E77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5475D6D11F9ED25300AFA523 /* Data.swift */,
+				5475D6D31F9ED6DC00AFA523 /* TextTwistModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6394F2F22F8C39100F76E77 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				5475D6C11F9ED24100AFA523 /* ViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		C6394F3022F8C3A500F76E77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5475D6C31F9ED24100AFA523 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27KQ4G2M79;
 				INFOPLIST_FILE = TextTwist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c4q.TextTwist;
@@ -305,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 27KQ4G2M79;
 				INFOPLIST_FILE = TextTwist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = c4q.TextTwist;
